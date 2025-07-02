@@ -11,7 +11,13 @@ public class AddTwoNumbers {
         int num2 = scanner.nextInt();
 
         int sum = num1 + num2;
-
+        
         System.out.println("ผลรวมคือ: " + sum);
+        System.out.println("ผลคูณ : " + calNumber(5, 10));
     }
+    public static int calNumber(int a , int b) {
+            int c;
+            c = a*b;
+            return c; 
+        }
 }
