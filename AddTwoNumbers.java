@@ -20,6 +20,11 @@ public class AddTwoNumbers {
             c = a*b;
             return c; 
     }
+      public static int calNumber1(int a , int b) {
+            int c;
+            c = a*5;
+            return c; 
+    }
     public static String hello(String hello) {
         return hello;
     }
