@@ -19,5 +19,8 @@ public class AddTwoNumbers {
             int c;
             c = a*b;
             return c; 
-        }
+    }
+    public static String hello(String hello) {
+        return hello;
+    }
 }
